@@ -86,7 +86,7 @@ function markup(poster_path, title, id, genres, year) {
   } else {
     // Вставка повідомлення про відсутність фільмів
     libraryElement.innerHTML = `
-      <p>OOPS... We are very sorry! You don’t have any movies at your library.</p>
+      <p>OOPS... <br>We are very sorry! <br>You don’t have any movies at your library.</p>
       <button class="btn" onclick="location.href='../../index.html'">Search movie</button>
     `;
   }
